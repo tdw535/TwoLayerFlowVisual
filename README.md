@@ -19,3 +19,7 @@ https://emscripten.org/docs/getting_started
 https://medium.com/swlh/i-made-a-game-in-c-run-in-a-web-browser-and-so-can-you-2911b9fe2368
 
 https://developer.mozilla.org/en-US/docs/WebAssembly/C_to_wasm
+
+
+Cmake with VS code in linux
+https://code.visualstudio.com/docs/cpp/cmake-linux
