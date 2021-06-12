@@ -23,3 +23,26 @@ https://developer.mozilla.org/en-US/docs/WebAssembly/C_to_wasm
 
 Cmake with VS code in linux
 https://code.visualstudio.com/docs/cpp/cmake-linux
+
+
+Sample WASM from CMake 
+
+https://github.com/adevaykin/minimal-cmake-emscripten-project
+
+
+------------
+Setting up the Build process using VSCode
+- Make sure that cmake works
+- Set up VSCode cmake settings to use the Emscripten tool chain
+![Screenshot](READAME_Images/VSCodeEMScripten.png)
+
+-------------
+To Build
+Run: 
+emcmake cmake . 
+make
+
+This will create a .js and .wasm file
+
+Still need to figure out how to get the .html file working
+

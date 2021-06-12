@@ -31,3 +31,17 @@
 *.out
 *.app
 build/*
+
+
+# CMake and builds
+CMakeCache.txt
+CMakeFiles/
+CPackConfig.cmake
+CPackSourceConfig.cmake
+CTestTestfile.cmake
+DartConfiguration.tcl
+HelloWorld.js
+HelloWorld.wasm
+Makefile
+cmake_install.cmake
+
