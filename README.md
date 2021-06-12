@@ -39,7 +39,9 @@ Setting up the Build process using VSCode
 -------------
 To Build
 Run: 
+
 emcmake cmake . 
+
 make
 
 This will create a .js and .wasm file
