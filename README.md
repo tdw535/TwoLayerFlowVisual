@@ -34,7 +34,7 @@ https://github.com/adevaykin/minimal-cmake-emscripten-project
 Setting up the Build process using VSCode
 - Make sure that cmake works
 - Set up VSCode cmake settings to use the Emscripten tool chain
-![Screenshot](READAME_Images/VSCodeEMScripten.png)
+![Screenshot](README_Images/VSCodeEMScripten.png)
 
 -------------
 To Build
