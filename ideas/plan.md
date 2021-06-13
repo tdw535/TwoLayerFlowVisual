@@ -11,8 +11,10 @@ Progress on cmake [---->xxxx]
 - [x] Need to work out the environment path (see emscripten documentation to make it work if not yet working)
 
 - How to handle all the ,js .wasm files being built in each project?
+  -- Handle this manually by update the generate_build.sh each time
 
-- Need to make sure that all the build related stuff gets put in the build directory so that the main directory is not cluttered
+- [x] Need to make sure that all the build related stuff gets put in the build directory so that the main directory is not cluttered
+      -- see above for caveat
 
 - Get a basic html template down that looks okay
 
