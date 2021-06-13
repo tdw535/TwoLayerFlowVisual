@@ -4,9 +4,13 @@
   the compiling c++, then converting to html is easy
 
 (Maybe using cmake?)
-Progress on cmake [---->xxxx] need to get the html working
+Progress on cmake [---->xxxx]
 
-- Need to work out the environment path (see emscripten documentation to make it work if not yet working)
+- [x] Get the html working
+
+- [x] Need to work out the environment path (see emscripten documentation to make it work if not yet working)
+
+- How to handle all the ,js .wasm files being built in each project?
 
 - Need to make sure that all the build related stuff gets put in the build directory so that the main directory is not cluttered
 
