@@ -38,14 +38,7 @@ Setting up the Build process using VSCode
 To Build
 Run:
 
-Make sure that .bash_profile is active
+bash generateBuild.sh 
 
-source ~/.bash_profile
-
-emcmake cmake .
-
-make
-
-This will create a .js and .wasm file
 
 Still need to figure out how to get the .html file working
