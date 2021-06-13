@@ -40,6 +40,11 @@ Setting up the Build process using VSCode
 To Build
 Run: 
 
+Make sure that .bash_profile is active
+
+source ~/.bash_profile
+
+
 emcmake cmake . 
 
 make
