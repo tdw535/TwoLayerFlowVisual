@@ -16,11 +16,13 @@ Progress on cmake [---->xxxx]
 - [x] Need to make sure that all the build related stuff gets put in the build directory so that the main directory is not cluttered
       -- see above for caveat
 
-- Get a basic html template down that looks okay
+- [ ] Get a button in html that will call the cpp function
 
-- Start writing the C++ engine for two layer flow
+- [ ] Get a basic html template down that looks okay
 
-- Engine should use the linearized equations for now for simplicity
+- [ ] Start writing the C++ engine for two layer flow
+
+- [ ] Engine should use the linearized equations for now for simplicity
 
 ## Some thoughts
 
