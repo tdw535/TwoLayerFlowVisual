@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "~/Projects/ThirdPartyLibraries/emsdk/upstream/emscripten/cache/sysroot/include/SDL",
+        "~/Projects/ThirdPartyLibraries/emsdk/upstream/emscripten/cache/sysroot/include/compat",
+        "~/Projects/ThirdPartyLibraries/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1",
+        "~/Projects/ThirdPartyLibraries/emsdk/upstream/lib/clang/13.0.0/include",
+        "~/Projects/ThirdPartyLibraries/emsdk/upstream/emscripten/cache/sysroot/include",
+        "${workspaceFolder}/**"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu17",
+      "cppStandard": "gnu++14",
+      "intelliSenseMode": "linux-gcc-x64",
+      "configurationProvider": "ms-vscode.cmake-tools"
+    }
+  ],
+  "version": 4
+}

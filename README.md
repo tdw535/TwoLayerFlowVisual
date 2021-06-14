@@ -25,6 +25,9 @@ https://github.com/adevaykin/minimal-cmake-emscripten-project
 Setting up CMake projects for C++ with subdirectories
 https://www.youtube.com/watch?v=SYgESCQeGJY
 
+To setup the emc flags
+https://github.com/emscripten-core/emscripten/issues/11817
+
 ---
 
 Setting up the Build process using VSCode

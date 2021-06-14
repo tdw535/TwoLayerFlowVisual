@@ -6,8 +6,22 @@
 <p>My first paragraph.</p>
 
 
+<button class="mybutton">Run myFunction</button>
 
 <script src="./TwoLayerFlowHead-exe.js"></script>
+
+<script type='text/javascript'>
+    document.querySelector('.mybutton')
+        .addEventListener('click', function() {
+            alert('check console');
+            var result = Module.ccall(
+                'myHelloWorldFunction',	
+                null,	// return type
+                null,	// argument types
+                null	// arguments
+            );
+        });
+</script>
 
 </body>
 </html> 
