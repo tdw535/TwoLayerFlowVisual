@@ -13,5 +13,5 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/build)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/build)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
-target_link_options(TwoLayerFlowHead-exe PRIVATE -sEXPORTED_FUNCTIONS=['_main','_myFunction'] -s EXTRA_EXPORTED_RUNTIME_METHODS=['ccall','cwrap'])
+target_link_options(TwoLayerFlowHead-exe PRIVATE -sEXPORTED_FUNCTIONS=['_main','_myHelloWorldFunction'] -s EXTRA_EXPORTED_RUNTIME_METHODS=['ccall','cwrap'])
 include(CPack)

@@ -50,3 +50,5 @@ sampleView/helloWorld.html
 sampleView/helloWorld.html
 TwoLayerFlowHead-exe/CMakeLists.txt
 TwoLayerFlowHead-exe/src/main.cpp
+webModules/node_modules
+ideas/notes.txt
