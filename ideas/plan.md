@@ -16,7 +16,11 @@ Progress on cmake [---->xxxx]
 - [x] Need to make sure that all the build related stuff gets put in the build directory so that the main directory is not cluttered
       -- see above for caveat
 
-- [ ] Get a button in html that will call the cpp function
+- [x] Get a button in html that will call the cpp function
+
+- [ ] Get cpp result to show value inside html element
+
+- [ ] Get a visualizer in html working
 
 - [ ] Get a basic html template down that looks okay
 

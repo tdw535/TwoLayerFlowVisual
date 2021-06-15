@@ -33,7 +33,7 @@ https://github.com/emscripten-core/emscripten/issues/11817
 Setting up the Build process using VSCode
 
 - Make sure that cmake works
-- Set up VSCode cmake settings to use the Emscripten tool chain
+- Set up VSCode cmake settings to use the Emscripten tool chain; Make sure that it is pointed to the right spot where the EMScripten sdk is.
   ![Screenshot](README_Images/VSCodeEMScripten.png)
 
 ---
