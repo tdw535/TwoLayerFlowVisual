@@ -19,7 +19,6 @@ Cmake with VS code in linux
 https://code.visualstudio.com/docs/cpp/cmake-linux
 
 Sample WASM from CMake
-
 https://github.com/adevaykin/minimal-cmake-emscripten-project
 
 Setting up CMake projects for C++ with subdirectories
@@ -39,6 +38,7 @@ Setting up the Build process using VSCode
 ---
 
 Webgl tutorial
+
 https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API
 
 https://github.com/invent-box/Learn-WebGL
