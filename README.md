@@ -45,6 +45,11 @@ https://github.com/invent-box/Learn-WebGL
 
 https://www.youtube.com/watch?v=bP7_FeP9kU4&list=PL2935W76vRNHFpPUuqmLoGCzwx_8eq5yK&index=2
 
+## Known packages/libraries used
+
+- EMScripten
+- gl-matrix https://www.npmjs.com/package/gl-matrix
+
 ---
 
 To Build
