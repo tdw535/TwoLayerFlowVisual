@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "d3-3d": "^0.1.2",
+    "express": "^4.17.1",
+    "gl-matrix": "^3.3.0"
   }
 }

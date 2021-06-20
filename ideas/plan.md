@@ -18,9 +18,11 @@ Progress on cmake [---->xxxx]
 
 - [x] Get a button in html that will call the cpp function
 
-- [ ] Get cpp result to show value inside html element
+- [ ] Get simple visualizer working using D3-3D (look into three.js and webgl too if time permits)
 
-- [ ] Get a visualizer in html working
+- [ ] Figure out how to use node modules with the express server
+
+- [ ] Get cpp result to show value inside html element
 
 - [ ] Get a basic html template down that looks okay
 

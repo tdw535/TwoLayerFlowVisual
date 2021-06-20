@@ -45,10 +45,12 @@ https://github.com/invent-box/Learn-WebGL
 
 https://www.youtube.com/watch?v=bP7_FeP9kU4&list=PL2935W76vRNHFpPUuqmLoGCzwx_8eq5yK&index=2
 
-## Known packages/libraries used
+## Known packages/libraries used for license purposes
 
 - EMScripten
 - gl-matrix https://www.npmjs.com/package/gl-matrix
+
+- d3-3d https://github.com/Niekes/d3-3d
 
 ---
 
