@@ -18,6 +18,10 @@ Progress on cmake [---->xxxx]
 
 - [x] Get a button in html that will call the cpp function
 
+- [ ] Get some organization for plotting some scatter points from a flat array
+
+- [ ] Figure out how to make scatter points look like a mesh/3d
+
 - [ ] Get simple visualizer working using D3-3D (look into three.js and webgl too if time permits)
 
 - [ ] Figure out how to use node modules with the express server
