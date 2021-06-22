@@ -15,17 +15,19 @@
 <button class="mybutton">Run myFunction</button>
 
 <script src="./TwoLayerFlowHead-exe.js"></script>
+<script src="./cppDataGetter.js"></script>
 
 <script type='text/javascript'>
     document.querySelector('.mybutton')
         .addEventListener('click', function() {
-            alert('check console');
+            //alert('check console');
             var result = Module.ccall(
                 'myHelloWorldFunction',	
                 null,	// return type
                 null,	// argument types
                 null	// arguments
             );
+            runTestFunc();
         });
 </script>
 

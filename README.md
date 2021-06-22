@@ -35,6 +35,9 @@ Setting up the Build process using VSCode
 - Set up VSCode cmake settings to use the Emscripten tool chain; Make sure that it is pointed to the right spot where the EMScripten sdk is.
   ![Screenshot](README_Images/VSCodeEMScripten.png)
 
+Passing information from cpp to JS using emscripten, tutorial
+https://kapadia.github.io/emscripten/2013/09/13/emscripten-pointers-and-pointers.html
+
 ---
 
 Webgl tutorial
@@ -44,6 +47,8 @@ https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API
 https://github.com/invent-box/Learn-WebGL
 
 https://www.youtube.com/watch?v=bP7_FeP9kU4&list=PL2935W76vRNHFpPUuqmLoGCzwx_8eq5yK&index=2
+
+---
 
 ## Known packages/libraries used for license purposes
 
