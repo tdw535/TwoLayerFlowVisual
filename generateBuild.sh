@@ -17,6 +17,8 @@ pwd
 echo "Copying html sample view to bin"
 cp ../webModules/sampleView/helloWorld.html bin
 cp ../webModules/sampleView/cppDataGetter.js bin
+cp ../webModules/sampleView/visualizer.js bin
+
 cd ..
 
 echo "Cleaning up machine generated cmake files"
