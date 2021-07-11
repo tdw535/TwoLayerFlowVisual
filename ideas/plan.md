@@ -1,17 +1,14 @@
 # Plan
 
-- First get a basic pipeline working (or bash script) so that
-  the compiling c++, then converting to html is easy
-
-(Maybe using cmake?)
-Progress on cmake [---->xxxx]
-
+- [x] First get a basic pipeline working (or bash script) so that
+      the compiling c++, then converting to html is easy
 - [x] Get the html working
 
 - [x] Need to work out the environment path (see emscripten documentation to make it work if not yet working)
 
-- How to handle all the ,js .wasm files being built in each project?
-  -- Handle this manually by update the generate_build.sh each time
+- [x] How to handle all the ,js .wasm files being built in each project?
+      -- Handle this manually by update the generate_build.sh each time
+      -- Automate this process eventually
 
 - [x] Need to make sure that all the build related stuff gets put in the build directory so that the main directory is not cluttered
       -- see above for caveat
@@ -22,7 +19,9 @@ Progress on cmake [---->xxxx]
 
 - [ ] Figure out how to make scatter points look like a mesh/3d
 
-- [ ] Get simple visualizer working using D3-3D (look into three.js and webgl too if time permits)
+- [ ] ~~Get simple visualizer working using D3-3D (look into three.js and webgl too if time permits)~~
+
+- [x] Start using three.js
 
 - [ ] Figure out how to use node modules with the express server
 
