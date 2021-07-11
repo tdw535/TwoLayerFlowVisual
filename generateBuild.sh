@@ -19,6 +19,13 @@ cp ../webModules/sampleView/helloWorld.html bin
 cp ../webModules/sampleView/cppDataGetter.js bin
 cp ../webModules/sampleView/visualizer.js bin
 
+echo "Copying dependencies"
+mkdir bin/dependencies
+cp ../webModules/node_modules/three/build/three.js bin/dependencies
+cp ../webModules/node_modules/three/build/three.module.js bin/dependencies
+
+
+
 cd ..
 
 echo "Cleaning up machine generated cmake files"

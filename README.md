@@ -50,12 +50,15 @@ https://www.youtube.com/watch?v=bP7_FeP9kU4&list=PL2935W76vRNHFpPUuqmLoGCzwx_8eq
 
 ---
 
+three js documentation
+https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene
+
 ## Known packages/libraries used for license purposes
 
 - EMScripten
 - gl-matrix https://www.npmjs.com/package/gl-matrix
 
-- d3-3d https://github.com/Niekes/d3-3d
+- ~~d3-3d https://github.com/Niekes/d3-3d~~
 
 ---
 
