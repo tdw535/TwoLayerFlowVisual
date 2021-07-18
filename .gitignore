@@ -49,4 +49,4 @@ cmake_install.cmake
 TwoLayerFlowHead-exe/CMakeLists.txt
 webModules/node_modules
 ideas/notes.txt
-cppMpdules/ThirdParty/
+cppModules/ThirdParty/
