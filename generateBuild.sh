@@ -8,27 +8,38 @@ make
 cd build
 rm -rf bin
 mkdir bin
+
+
+
+jsDir=bin/js
+jsDirDependencies=$jsDir/dependencies
+
+
+mkdir $jsDir
 echo "Done cleaning up bin in build"
 echo "Moving .js .wasm files from TwoLayerFlowHead"
-mv ../cppModules/TwoLayerFlowHead-exe/bin/TwoLayerFlowHead-exe.* bin
+mv ../cppModules/TwoLayerFlowHead-exe/bin/TwoLayerFlowHead-exe.* $jsDir
 
 echo "Current Dir"
 pwd
 echo "Copying html sample view to bin"
+
+
+
 cp ../webModules/sampleView/helloWorld.html bin
-cp ../webModules/sampleView/cppDataGetter.js bin
-cp ../webModules/sampleView/Visualizer.js bin
-cp ../webModules/sampleView/Simulator.js bin
-cp ../webModules/sampleView/CPPRunner.js bin
+cp ../webModules/sampleView/cppDataGetter.js $jsDir
+cp ../webModules/sampleView/Visualizer.js $jsDir
+cp ../webModules/sampleView/Simulator.js $jsDir
+cp ../webModules/sampleView/CPPRunner.js $jsDir
 
 
 
 
 echo "Copying dependencies"
-mkdir bin/dependencies
-cp ../webModules/node_modules/three/build/three.js bin/dependencies
-cp ../webModules/node_modules/three/build/three.module.js bin/dependencies
-cp ../webModules/node_modules/three/examples/jsm/controls/OrbitControls.js bin/dependencies
+mkdir $jsDirDependencies
+cp ../webModules/node_modules/three/build/three.js $jsDirDependencies
+cp ../webModules/node_modules/three/build/three.module.js $jsDirDependencies
+cp ../webModules/node_modules/three/examples/jsm/controls/OrbitControls.js $jsDirDependencies
 
 
 
