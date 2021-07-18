@@ -27,13 +27,15 @@
 
 - [ ] Figure out how to make scatter points look like a mesh/3d
 
+- [ ] Make webpage prettier (use angular to brush up on it?)
+
 - [ ] ~~Get simple visualizer working using D3-3D (look into three.js and webgl too if time permits)~~
 
 - [x] Start using three.js
 
 - [ ] Figure out how to use node modules with the express server
 
-- [ ] Get cpp result to show value inside html element
+- [x] Get cpp result to show value inside html element
 
 - [ ] Get a basic html template down that looks okay
 
