@@ -23,6 +23,7 @@ echo "Copying dependencies"
 mkdir bin/dependencies
 cp ../webModules/node_modules/three/build/three.js bin/dependencies
 cp ../webModules/node_modules/three/build/three.module.js bin/dependencies
+cp ../webModules/node_modules/three/examples/jsm/controls/OrbitControls.js bin/dependencies
 
 
 

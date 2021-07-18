@@ -73,8 +73,8 @@ function testFunc(iModule,iData,iCol,iRow){
     createMyModule().then(MyModule => {
         console.log('WebAssembly done loading');
 
-        var col = 20;
-        var row = 30;
+        var col = 1;
+        var row = 1000;
         var data = new Float32Array(col*row);
         console.log("Running test func");
         result = testFunc(MyModule,data,col,row);

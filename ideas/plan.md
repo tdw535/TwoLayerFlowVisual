@@ -15,7 +15,11 @@
 
 - [x] Get a button in html that will call the cpp function
 
-- [ ] Get some organization for plotting some scatter points from a flat array
+- [x] Get some organization for plotting some scatter points from a flat array
+
+- [x] Figure out how to do camera panning/zooming
+
+- [ ] Figure out how to better organize the scene, renderer, camera, etc
 
 - [ ] Figure out how to make scatter points look like a mesh/3d
 

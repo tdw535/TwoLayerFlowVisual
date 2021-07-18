@@ -53,6 +53,8 @@ https://www.youtube.com/watch?v=bP7_FeP9kU4&list=PL2935W76vRNHFpPUuqmLoGCzwx_8eq
 three js documentation
 https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene
 
+https://www.youtube.com/watch?v=4ZgkMS5rH3E --Camera controls
+
 ## Known packages/libraries used for license purposes
 
 - EMScripten

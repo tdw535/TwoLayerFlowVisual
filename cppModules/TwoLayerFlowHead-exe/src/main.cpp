@@ -25,42 +25,30 @@ extern "C"
         //(21 June 2021) Temp testing to see how values can
         // be passed to JS
         // Refactor this logic to use std vectors internally
-        std::cout << "Printing inside cpp" << std::endl;
+        //std::cout << "Printing inside cpp" << std::endl;
         for (int ii = 0; ii < iRows; ii++)
         {
             for (int jj = 0; jj < iCols; jj++)
             {
-                oDataX[jj + ii * iCols] = ii;
-                oDataY[jj + ii * iCols] = jj;
-                double theta = 10 * oDataX[jj + ii * iCols] + oDataY[jj + ii * iCols];
-                oDataZ[jj + ii * iCols] = 10 * sin(theta * PI / 180.0);
+                oDataX[jj + ii * iCols] = 10 * 1.0 * (jj + ii * iCols) / (iRows * iCols);
+                // oDataY[jj + ii * iCols] = 10 * 1.0 * jj / iCols;
+                double theta = 55 * (oDataX[jj + ii * iCols]);
+                oDataY[jj + ii * iCols] = 10 * sin(theta * PI / 180.0);
+
+                oDataZ[jj + ii * iCols] = 0;
+                ;
             }
         }
 
-        for (int ii = 0; ii < iRows; ii++)
-        {
-            for (int jj = 0; jj < iCols; jj++)
-            {
-                std::cout << "X " << oDataX[jj + ii * iCols] << std::endl;
-                std::cout << "Y " << oDataY[jj + ii * iCols] << std::endl;
-                std::cout << "Z " << oDataZ[jj + ii * iCols] << std::endl;
-            }
-        }
-
-        // oDataX[0] = 0;
-        // oDataX[1] = 10;
-        // oDataX[2] = 0;
-        // oDataX[3] = -10;
-
-        // oDataY[0] = 10;
-        // oDataY[1] = 0;
-        // oDataY[2] = -10;
-        // oDataY[3] = 0;
-
-        // oDataZ[0] = 0;
-        // oDataZ[1] = 0;
-        // oDataZ[2] = 0;
-        // oDataZ[3] = 0;
+        // for (int ii = 0; ii < iRows; ii++)
+        // {
+        //     for (int jj = 0; jj < iCols; jj++)
+        //     {
+        //         std::cout << "X " << oDataX[jj + ii * iCols] << std::endl;
+        //         std::cout << "Y " << oDataY[jj + ii * iCols] << std::endl;
+        //         std::cout << "Z " << oDataZ[jj + ii * iCols] << std::endl;
+        //     }
+        // }
     }
 
     //#ifdef __cplusplus
