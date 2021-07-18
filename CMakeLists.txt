@@ -18,6 +18,6 @@ target_link_options(TwoLayerFlowHead-exe PRIVATE
 -sEXPORTED_RUNTIME_METHODS=['ccall','cwrap']
 -sEXPORT_ES6=1
 -sMODULARIZE=1
--sEXPORT_NAME="createMyModule"
+-sEXPORT_NAME="CreateMyCPPModule"
 )
 include(CPack)

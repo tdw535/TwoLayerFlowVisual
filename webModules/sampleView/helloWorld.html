@@ -14,13 +14,13 @@
 <button class="mybutton">Run myFunction</button>
 <script type="module" src="./TwoLayerFlowHead-exe.js"></script>
 <!-- <script type="module" src="./cppDataGetter.js"></script> -->
-<script type="module" src="./visualizer.js"></script>
+<script type="module" src="./Visualizer.js"></script>
 
 
 
 
 <script type="module">
-    import {visualizeFunc} from  './visualizer.js';
+    import {VisualizeFunc} from  './Visualizer.js';
     document.querySelector('.mybutton')
         .addEventListener('click', function() {
             //alert('check console');
@@ -30,7 +30,7 @@
             //     null,	// argument types
             //     null	// arguments
             // );
-            visualizeFunc();
+            VisualizeFunc();
         });
 </script>
 

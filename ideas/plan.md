@@ -19,6 +19,8 @@
 
 - [x] Figure out how to do camera panning/zooming
 
+- [x] Fix memory leak by only allocating and deallocating the memory locations once
+
 - [ ] Get a working deployed webpage by doing the copy so that the main page is on index.html at the top level
 
 - [ ] Figure out how to better organize the scene, renderer, camera, etc

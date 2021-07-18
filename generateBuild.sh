@@ -17,7 +17,12 @@ pwd
 echo "Copying html sample view to bin"
 cp ../webModules/sampleView/helloWorld.html bin
 cp ../webModules/sampleView/cppDataGetter.js bin
-cp ../webModules/sampleView/visualizer.js bin
+cp ../webModules/sampleView/Visualizer.js bin
+cp ../webModules/sampleView/Simulator.js bin
+cp ../webModules/sampleView/CPPRunner.js bin
+
+
+
 
 echo "Copying dependencies"
 mkdir bin/dependencies

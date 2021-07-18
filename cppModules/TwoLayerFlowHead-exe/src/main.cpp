@@ -20,7 +20,7 @@ extern "C"
         printf("MyFunction Called\n Hello World");
     }
 
-    EMSCRIPTEN_KEEPALIVE void ComputePoints(float *oDataX, float *oDataY, float *oDataZ, int iRows, int iCols)
+    EMSCRIPTEN_KEEPALIVE void ComputePoints(float *oDataX, float *oDataY, float *oDataZ, int iRows, int iCols, int iTimeT)
     {
         //(21 June 2021) Temp testing to see how values can
         // be passed to JS
@@ -30,13 +30,14 @@ extern "C"
         {
             for (int jj = 0; jj < iCols; jj++)
             {
-                oDataX[jj + ii * iCols] = 10 * 1.0 * (jj + ii * iCols) / (iRows * iCols);
+                oDataX[jj + ii * iCols] = (10 * (1.0 * (ii)-iRows / 2)) / (iRows);
                 // oDataY[jj + ii * iCols] = 10 * 1.0 * jj / iCols;
-                double theta = 55 * (oDataX[jj + ii * iCols]);
-                oDataY[jj + ii * iCols] = 10 * sin(theta * PI / 180.0);
+                oDataY[jj + ii * iCols] = (10 * (1.0 * (jj)-iCols / 2)) / (iCols);
 
-                oDataZ[jj + ii * iCols] = 0;
-                ;
+                double theta = 55 * (oDataX[jj + ii * iCols] + oDataY[jj + ii * iCols]);
+
+                // oDataZ[jj + ii * iCols] = (oDataX[jj + ii * iCols]) * (oDataX[jj + ii * iCols]) + (oDataY[jj + ii * iCols]) * (oDataY[jj + ii * iCols]); //10 * sin(theta * PI / 180.0);
+                oDataZ[jj + ii * iCols] = 10 * sin((theta - iTimeT) * PI / 180.0);
             }
         }
 
