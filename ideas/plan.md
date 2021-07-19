@@ -41,7 +41,11 @@
 
 - [ ] Start writing the C++ engine for two layer flow
 
-- [ ] Figure out linking of boost and/or FFTW3 and possibly even eigen
+- [x] Figure out linking of boost and/or FFTW3 and possibly even eigen; Got Eigen working
+
+- [ ] Figure out how to do fft with eigen
+
+- [ ] Start work on equation solver
 
 - [ ] Engine should use the linearized equations for now for simplicity
 
