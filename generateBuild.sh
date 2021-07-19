@@ -1,7 +1,13 @@
 source ~/.bash_profile 
 
+
+#cmake . -DCMAKE_PREFIX_PATH=./cppModules/ThirdParty/eigen-3.3.9
+#-DEigen3_DIR=./cppModules/ThirdParty/eigen-3.3.9 
+#emcmake cmake .  #-DCMAKE_TOOLCHAIN_FILE=/home/genbu/Projects/ThirdPartyLibraries/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake -DCMAKE_CROSSCOMPILING_EMULATOR=/home/genbu/Projects/ThirdPartyLibraries/emsdk/node/14.15.5_64bit/bin/node 
+#cmake .  -DEigen3_DIR=./cppModules/ThirdParty/eigen-3.3.9  -DCMAKE_TOOLCHAIN_FILE=/home/genbu/Projects/ThirdPartyLibraries/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake -DCMAKE_CROSSCOMPILING_EMULATOR=/home/genbu/Projects/ThirdPartyLibraries/emsdk/node/14.15.5_64bit/bin/node 
 emcmake cmake .
-make
+
+make #-j2
 
 #clean up cmake files
 

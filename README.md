@@ -55,6 +55,13 @@ https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene
 
 https://www.youtube.com/watch?v=4ZgkMS5rH3E --Camera controls
 
+Eigen documentation
+Setting up cmake is difficult; just install libeigen from the terminal
+and use the local environment to build
+
+https://gist.github.com/jeeho-ahn/07f943110731a0b4c2e73fc2fa8c96bf -- Setting up Eigen CMake
+https://stackoverflow.com/questions/59607346/eigen-library-setup-in-cmakelists-txt
+
 ## Known packages/libraries used for license purposes
 
 - EMScripten
@@ -63,6 +70,8 @@ https://www.youtube.com/watch?v=4ZgkMS5rH3E --Camera controls
 - ~~d3-3d https://github.com/Niekes/d3-3d~~
 
 - three.js https://threejs.org/
+
+- Eigen https://eigen.tuxfamily.org/index.php?title=Main_Page (MPL2)
 
 ---
 

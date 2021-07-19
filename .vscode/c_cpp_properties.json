@@ -8,6 +8,7 @@
         "~/Projects/ThirdPartyLibraries/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1",
         "~/Projects/ThirdPartyLibraries/emsdk/upstream/lib/clang/13.0.0/include",
         "~/Projects/ThirdPartyLibraries/emsdk/upstream/emscripten/cache/sysroot/include",
+        "/usr/include/eigen3",
         "${workspaceFolder}/**"
       ],
       "defines": [],

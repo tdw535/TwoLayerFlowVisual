@@ -1,13 +1,35 @@
 #include <iostream>
 #include <math.h>
+
+#include <Eigen/Core>
+#include <Eigen/Dense>
+
 //Some reason intellisense will list this as en error
 #include <emscripten/emscripten.h>
 
 #define PI 3.14159265
 
+int PrintEigen(Eigen::MatrixX3d m)
+{
+    //Apparently you can print eigen matrix 3d using cout
+    std::cout << m << std::endl;
+    return 0;
+}
+
 int main(int, char **)
 {
     std::cout << "Hello, world!\n";
+
+    Eigen::Matrix3d test; //double precisiou
+
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+            test(i, j) = i + j;
+    }
+
+    // Print
+    PrintEigen(test);
 }
 
 //#ifdef __cplusplus
