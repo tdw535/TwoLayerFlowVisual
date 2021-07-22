@@ -55,7 +55,10 @@ https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene
 
 https://www.youtube.com/watch?v=4ZgkMS5rH3E --Camera controls
 
+---
+
 Eigen documentation
+
 Setting up cmake is difficult; 
 Just install libeigen from the terminal
 and use the local environment to build
@@ -81,4 +84,3 @@ Run:
 
 bash generateBuild.sh
 
-Still need to figure out how to get the .html file working
