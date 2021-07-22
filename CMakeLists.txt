@@ -13,7 +13,7 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/build)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/build)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
-target_link_options(TwoLayerFlowHead-exe PRIVATE 
+target_link_options(WebRunner PRIVATE 
 -sEXPORTED_FUNCTIONS=['_main','_myHelloWorldFunction','_ComputePoints','_malloc','_free'] 
 -sEXPORTED_RUNTIME_METHODS=['ccall','cwrap']
 -sEXPORT_ES6=1

@@ -1,5 +1,5 @@
 
-import CreateMyModule from './TwoLayerFlowHead-exe.js';
+import CreateMyModule from './WebRunner.js';
 
 export default class CPPRunner {
     constructor(iRows,iCols){

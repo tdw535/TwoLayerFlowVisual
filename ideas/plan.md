@@ -47,7 +47,9 @@
 
 - [ ] Start work on equation solver
 
-- [ ] Figure out CMake for src/include directories for the cpp
+- [x] Figure out CMake for src/include directories for the cpp; Got A rudimentary way working
+
+- [] Figure out smarter way to do the CMakeLists files (low priority)
 
 - [ ] Engine should use the linearized equations for now for simplicity
 

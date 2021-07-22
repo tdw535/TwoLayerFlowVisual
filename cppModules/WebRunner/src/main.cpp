@@ -2,6 +2,8 @@
 #include <math.h>
 #include <Eigen/Core>
 #include <Eigen/Dense>
+#include <memory>
+#include "Solver.h"
 
 #include <emscripten/emscripten.h>
 
@@ -28,9 +30,12 @@ int main(int, char **)
 
     // Print
     PrintEigen(test);
+
+    std::shared_ptr<Solver> mySolver = Solver::CreateSolver();
+    mySolver->Solve();
 }
 
-//#ifdef __cplusplus
+// //#ifdef __cplusplus
 extern "C"
 {
     //#endif

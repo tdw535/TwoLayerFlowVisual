@@ -23,8 +23,8 @@ jsDirDependencies=$jsDir/dependencies
 
 mkdir $jsDir
 echo "Done cleaning up bin in build"
-echo "Moving .js .wasm files from TwoLayerFlowHead"
-mv ../cppModules/TwoLayerFlowHead-exe/bin/TwoLayerFlowHead-exe.* $jsDir
+echo "Moving .js .wasm files from WebRunner"
+mv ../cppModules/bin/WebRunner.* $jsDir
 
 echo "Current Dir"
 pwd
