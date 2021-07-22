@@ -1,22 +1,70 @@
+// {
+//     "env": {
+//         "myDefaultIncludePath": [
+//             "${workspaceFolder}/**",
+//             "${workspaceFolder}/cppModules/ComputationalEngine/include"
+//         ],
+//         "myCompilerPath": "/usr/bin/gcc",
+//         "C_Cpp.default.includePath": [
+//             "${workspaceFolder}/**",
+//             "${workspaceFolder}/cppModules/ComputationalEngine/include"
+//         ]
+//     },
+//     "configurations": [
+//         {
+//             "name": "Linux",
+//             "includePath": [
+//                 "${default}",
+//                 "${workspaceFolder}/**",
+//                 "/usr/include/eigen3",
+//                 "~/Projects/ThirdPartyLibraries/emsdk/upstream/emscripten/cache/sysroot/include/SDL",
+//                 "~/Projects/ThirdPartyLibraries/emsdk/upstream/emscripten/cache/sysroot/include/compat",
+//                 "~/Projects/ThirdPartyLibraries/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1",
+//                 "~/Projects/ThirdPartyLibraries/emsdk/upstream/lib/clang/13.0.0/include",
+//                 "~/Projects/ThirdPartyLibraries/emsdk/upstream/emscripten/cache/sysroot/include",
+//                 "${workspaceFolder}/cppModules/ComputationalEngine/include"
+//             ],
+//             "defines": [],
+//             "compilerPath": "/usr/bin/gcc",
+//             "cStandard": "gnu17",
+//             "cppStandard": "gnu++14",
+//             "intelliSenseMode": "${default}",
+//             "configurationProvider": "ms-vscode.cmake-tools",
+//             "browse": {
+//                 "path": [
+//                     "${workspaceFolder}/**",
+//                     "${workspaceFolder}/cppModules/ComputationalEngine/include"
+//                 ],
+//                 "limitSymbolsToIncludedHeaders": false,
+//                 "databaseFilename": "${workspaceFolder} "
+//             }
+//         }
+//     ],
+//     "version": 4
+// }
+
 {
   "configurations": [
     {
       "name": "Linux",
       "includePath": [
+        "${workspaceFolder}/**",
+        "/usr/include/eigen3",
         "~/Projects/ThirdPartyLibraries/emsdk/upstream/emscripten/cache/sysroot/include/SDL",
         "~/Projects/ThirdPartyLibraries/emsdk/upstream/emscripten/cache/sysroot/include/compat",
         "~/Projects/ThirdPartyLibraries/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1",
         "~/Projects/ThirdPartyLibraries/emsdk/upstream/lib/clang/13.0.0/include",
         "~/Projects/ThirdPartyLibraries/emsdk/upstream/emscripten/cache/sysroot/include",
-        "/usr/include/eigen3",
-        "${workspaceFolder}/**"
+        "${workspaceFolder}/cppModules/ComputationalEngine/include"
       ],
       "defines": [],
       "compilerPath": "/usr/bin/gcc",
       "cStandard": "gnu17",
       "cppStandard": "gnu++14",
       "intelliSenseMode": "linux-gcc-x64",
-      "configurationProvider": "ms-vscode.cmake-tools"
+      "browse": {
+        "path": ["${workspaceFolder}/**"]
+      }
     }
   ],
   "version": 4

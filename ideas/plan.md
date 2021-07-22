@@ -47,6 +47,8 @@
 
 - [ ] Start work on equation solver
 
+- [ ] Figure out CMake for src/include directories for the cpp
+
 - [ ] Engine should use the linearized equations for now for simplicity
 
 ## Some thoughts

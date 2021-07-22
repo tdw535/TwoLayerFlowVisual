@@ -1,10 +1,8 @@
 #include <iostream>
 #include <math.h>
-
 #include <Eigen/Core>
 #include <Eigen/Dense>
 
-//Some reason intellisense will list this as en error
 #include <emscripten/emscripten.h>
 
 #define PI 3.14159265

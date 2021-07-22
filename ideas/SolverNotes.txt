@@ -1,0 +1,11 @@
+# Start Simple
+# Start with a 1 layer shallow water equation simulation (2D periodic)
+
+# Math should be straight forward
+
+
+# Need to get 2D FFT/ IFFT
+
+# How to store simulation data?
+# Start with Singleton of a solver instance which hold onto data
+# GetPoints can update data and return value
