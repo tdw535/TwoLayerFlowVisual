@@ -1,5 +1,7 @@
 #include <memory>
 
+class FFT2DHandler;
+
 class Solver
 {
 public:
@@ -10,5 +12,6 @@ public:
     ~Solver();
 
 private:
+    std::shared_ptr<FFT2DHandler> mFFT2DHandler;
     Solver();
 };

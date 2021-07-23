@@ -9,3 +9,7 @@
 # How to store simulation data?
 # Start with Singleton of a solver instance which hold onto data
 # GetPoints can update data and return value
+
+# Make unit tests
+
+# Get Sin/Cosine functions working
