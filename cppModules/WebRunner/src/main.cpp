@@ -3,7 +3,7 @@
 #include <Eigen/Core>
 #include <Eigen/Dense>
 #include <memory>
-#include "Solver.h"
+#include "ComputationalEngine/include/Solver.h"
 
 #include <emscripten/emscripten.h>
 
@@ -35,7 +35,7 @@ int main(int, char **)
     mySolver->Solve();
 }
 
-// //#ifdef __cplusplus
+// // //#ifdef __cplusplus
 extern "C"
 {
     //#endif

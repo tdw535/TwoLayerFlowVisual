@@ -1,5 +1,6 @@
 #include <unsupported/Eigen/FFT>
 
+#include <iostream>
 #include "FFT2DHandler.h"
 
 std::shared_ptr<FFT2DHandler> FFT2DHandler::Create_FFT2DHandler()
@@ -32,6 +33,8 @@ void FFT2DHandler::DoFFT2D(Eigen::MatrixXcd &iToFFt, Eigen::MatrixXcd &oResult)
         oResult.col(colIdx) = tempCols;
     }
 
+    std::cout << "Result of FFT of  a cos function" << std::endl;
+    std::cout << oResult << std::endl;
     // for (int k = 0; k < nRows; ++k)
     // {
     //     Eigen::VectorXcf tmpOut(nCols);

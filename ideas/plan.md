@@ -43,7 +43,7 @@
 
 - [x] Figure out linking of boost and/or FFTW3 and possibly even eigen; Got Eigen working
 
-- [ ] Figure out how to do fft with eigen
+- [ ] Figure out how to do fft with ~~eigen~~ FFTW3 (Because of ability to use 2D ffts easily)
 
 - [ ] Start work on equation solver
 

@@ -3,6 +3,7 @@
 // If we need speed, replace the eigen with FFTW
 #include <unsupported/Eigen/FFT>
 #include <memory>
+#include <fftw3.h>
 
 class FFT2DHandler
 {
