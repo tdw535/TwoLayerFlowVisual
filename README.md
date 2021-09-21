@@ -8,8 +8,12 @@ Personal goal is to learn more about WebAssembly and writing
 C++ code that can be run inside the browser
 
 ## Pre-reqs
+
  (Ubuntu)
+ 
 Download and install emscripten; add source location to ~/.bash_profile
+
+Python v3.9 (lower versions may or may not work)
 
 
 ## Resources:
