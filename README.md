@@ -7,6 +7,11 @@ which will adjust the type of flow given the bounding box size
 Personal goal is to learn more about WebAssembly and writing
 C++ code that can be run inside the browser
 
+## Pre-reqs
+ (Ubuntu)
+Download and install emscripten; add source location to ~/.bash_profile
+
+
 ## Resources:
 
 https://emscripten.org/docs/getting_started
