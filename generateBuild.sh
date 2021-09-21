@@ -11,6 +11,7 @@ make #-j2
 
 #clean up cmake files
 
+#mkdir build
 cd build
 rm -rf bin
 mkdir bin
