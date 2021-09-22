@@ -47,6 +47,8 @@
 
 - [ ] Start work on equation solver
 
+- [ ] Fix memory leak
+
 - [x] Figure out CMake for src/include directories for the cpp; Got A rudimentary way working
 
 - [] Figure out smarter way to do the CMakeLists files (low priority)
